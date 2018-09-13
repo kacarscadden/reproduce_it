@@ -1,0 +1,11 @@
+---
+geometry: margin=1.5in
+indent: true
+fontsize: 12pt
+header-includes: |
+  \usepackage{tcolorbox}
+  \usepackage{extsizes}
+  \newcommand\qed{\hfill\rule{1em}{1em}}
+  \include{r_vars}
+  \include{py_vars}
+...

@@ -1,0 +1,10 @@
+---
+title: 'End to end reproducible manuscript example'
+date: '2018'
+author: Silas Tittes and Kelly K
+abstract: |
+  Reproducibility matters. Let's learn how to do it together!
+papersize: a4
+documentclass: article
+...
+
