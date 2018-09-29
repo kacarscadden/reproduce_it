@@ -4,8 +4,8 @@ def ship_var(var_name, file_name):
         	 if v is var_name:
              		var_string = k
 	tex_var = "\\newcommand{\\" + var_string + "}{" + str(var_name) + "}"
-	print(tex_var, file=open(file_name, "a"))
+	print(tex_var, file=open(file_name, "w"))
 	return 0
 
-py = 3.7
-ship_var(py, "py_vars.tex")
+pyvar = 3.7
+ship_var(pyvar, "py_vars.tex")

@@ -6,6 +6,6 @@ header-includes: |
   \usepackage{tcolorbox}
   \usepackage{extsizes}
   \newcommand\qed{\hfill\rule{1em}{1em}}
-  \include{r_vars}
-  \include{py_vars}
+  \input{r_vars.tex}
+  \input{py_vars.tex}
 ...
