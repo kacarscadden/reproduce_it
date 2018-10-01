@@ -1,6 +1,6 @@
 Introduction
 ------------
-Something
+Something totally mind-blowing
 
 Methods
 -------
