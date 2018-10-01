@@ -30,9 +30,9 @@ the_ms.tex: the_ms.md metadata.yaml format.yaml simple.bib $(R_outs) $(py_outs)
 		--filter pandoc-tablenos \
 		--bibliography simple.bib \
 		--csl $(my_csl)
+
 the_ms.pdf: the_ms.tex
 	xelatex the_ms.tex
-
 
 #output docx
 the_ms.docx: the_ms.md metadata.yaml format.yaml simple.bib $(R_outs) $(py_outs)

@@ -1,6 +1,6 @@
 Introduction
 ------------
-Something totally mind-blowing
+Something totally mind-blowing, and bodacious.
 
 Methods
 -------
